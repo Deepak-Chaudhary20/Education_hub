@@ -1,0 +1,217 @@
+.navbar-expand-sm .navbar-collapse{
+   /* display: flex;
+    flex-direction: row; 
+    */
+    justify-content: center;
+    text-align: center;
+}
+/* This color of whole navbar */
+.navbar{
+    width: 100%;
+    background-color: white;
+    height: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 2px solid black;
+}
+.row{
+    margin-left: 0;
+}
+/* This is links color basically a*/
+.nav-link{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Navbar button color*/
+.navbar-toggler{
+    background: rgb(236, 236, 236);
+}
+/*Hover effect on link*/
+.nav-link:hover{
+    color: grey;
+    font-size: 17px;
+    transition: 0.1s;
+}
+/*Login Button */
+#login{
+    border: 1px solid white;
+}
+/* Logo of the web page*/
+#logo{
+    color: black;
+}
+/*This is first of the main body after nav */
+#row-1{
+    margin: 0 auto;
+    width: 85%;
+}
+/*This is the value we put inside row-1*/
+#row-left{
+    background-color: rgb(20, 28, 58);
+    color: rgb(239, 217,202);
+    height: auto;
+    padding: 50px;
+    box-shadow: 4px 4px black;
+    border-radius: 0 40px;
+    padding-top:100px;
+    padding-bottom: 20px;
+}
+.blockquote{
+    font-size: 30px;
+}
+/* Try*/
+#try{
+    display: flex;
+    justify-content: center;
+}
+/*This is the the website first page home*/
+#bod{
+    background: url(images/back2.jpg);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+#left-bod{
+    color: white;
+    padding-top: 15px;
+    padding-right: 15px;
+    border-radius: 0 25px;
+    box-shadow: 4px 4px rgb(226, 225, 225);
+}
+#right-bod{
+    padding-top: 15px;
+    padding-right: 5%;
+    color: white;
+    margin-left: 5%;
+}
+#btn{
+    background-color: yellow;
+    color: black;
+    width: 150px;
+    padding: 5px;
+    box-shadow: 0px 2px 2px 0px white;
+}
+#btn:hover{
+    box-shadow: 2px 4px 4px 0px white;
+}
+/* This is the offer Section.*/
+#offer{
+    box-shadow: 4px 4px black;
+    background-color: rgb(58, 16, 229);
+    color: white;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-bottom: 25px;   
+}
+/*Offer hover setting*/
+#offer:hover{
+    box-shadow: 8px 8px black;
+    
+}
+/*Rows right section*/
+#row-right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+#para-row-right{
+    align-items: center;
+    width: 80%;
+    
+}
+#ready{
+    background-color: rgb(100, 0, 228);
+    color: white;
+    text-align: center;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#read{
+    font-size: 40px;
+}
+#list-first{
+    text-align: center;
+    color: grey;
+    padding-bottom: 15px;
+}
+#list{
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.list-group-item{
+    color: grey;
+    border-left: 5px solid blueviolet;
+    box-shadow: 4px 4px solid grey;
+}
+#image1{
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+}
+#row-2{
+    height: auto;
+    margin: 0 auto;
+    width: 80%;
+    padding: 25px 0px 50px 0px;
+    color: white;
+}
+#alert{
+    display: hidden;
+}
+#carousel{
+    margin: 0 auto ;
+    width: 60%;
+    height: 60%;
+    overscroll-behavior: none;
+    overflow: hidden;
+    box-shadow: 4px 4px black;
+}
+#alum{
+    text-align: center;
+}
+.whyus{
+    background-color: #4d4dff;
+}
+#footer{
+    width: 100%;
+    height: auto;
+    padding: 5% 10% 5% 10%;
+    background-color: #6666ff;
+    color: white;
+}
+#social-links{
+    color: white;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+}
+.foot{
+    text-align: right;
+}
+@media only screen and (max-width: 798px) {
+    .blockquote{
+        font-size: 20px;
+    }
+    #row-left{
+        padding-top: 50px;
+        margin-bottom: 5px;
+    }
+    #carousel{
+        width: 75%;
+        height: 75%;
+    }
+    #home-head{
+        font-size: 16px;
+    }
+  }
